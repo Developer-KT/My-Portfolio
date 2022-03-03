@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background: black;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar__container {
+    display: flex;
+    justify-content: space-between;
+    height: 80%;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar__logo {
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, rgb(103, 255, 255) 0%, rgb(0, 0, 193) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: transparent;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar__item {
+    height: 80px;
+}
+
+.navbar__links {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    text-decoration: none;
+    height: 100%;
+    transition: all 0.5s ease;
+}
+
+.navbar__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background: -webkit-linear-gradient(to right, rgb(134, 255, 255), rgb(0, 0, 97), rgb(40, 40, 40));
+    background: linear-gradient(to right, rgb(125, 250, 250) 0%, rgb(15, 15, 157), rgb(94, 94, 94));
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.navbar__links:hover {
+    color: rgb(0, 106, 106);
+    transition: all 0.3s ease;
+    transform: scale(1.075);
+}
+                                                                        /* Main Section */
+                                                                        
+
+.hero {
+    align-items: center;
+    display: grid;
+}
+
+#profile-picture {
+    height: 400px;
+    width: 450px;
+    margin: 3px auto 25px auto;
+    display: block;
+}
+
+.top-headings {
+    margin-bottom: 20px;
+}
+
+#top-head1 {
+    margin-bottom: 10px;
+}
+
+span {
+    background-color: #ff8177;
+    background-image: linear-gradient(to top, rgb(103, 255, 255) 0%, rgb(0, 0, 193) 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: transparent;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+
+p {
+    font-size: 25px;
+    margin: 0 15px;
+}
+
+                                                                        /* Skills section */
+
+.skills {
+    margin: 100px auto;
+    display: grid;
+}
+
+.heading {
+    text-align: center;
+
+}
+
+h3 {
+    margin-bottom: 8px;
+}
+
+.skills-section {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+.skills-group {
+    float: left;
+    margin: 45px;
+}
+
+                                                                        /* My Work Section */
+
+.my-work {
+    margin: 70px auto;
+    display: grid;
+}
+
+ul li {
+    list-style: none;
+}
+
+.projects-row ul li:hover {
+    transform: scale(1.2);
+}
+
+.projects-row ul li a {
+    color: black;
+}
+
+.projects-row {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project {
+    float: left;
+    text-align: center;
+    margin: 45px;
+}
+
+.project-image {
+    height: 200px;
+    width: 350px;
+}
+#con4 {
+    border: rgb(152, 152, 152);
+}
+
+#more {
+    text-align: center;
+}
+
+                                                                        /* Background Section */
+
+.background {
+    margin: 25px;
+}
+
+.background h1 {
+    margin-bottom: 25px;
+}
+
+
+                                                                        /* Contact Me Section */
+
+.contact-me {
+    margin: 100px;
+}
+
+.contact-me ul {
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+}
+                                                                        /* Footer Section */
+
+footer {
+    display: none;
+}
